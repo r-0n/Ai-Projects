@@ -1,0 +1,13 @@
+{
+    "folders": [
+		{
+			"name": "First-Ai-project",
+			"path": ".."
+		},
+		{
+			"name": "Movie-Recommender",
+			"path": "../../Movie-Recommender"
+		}
+	],
+    "settings": {}
+}
