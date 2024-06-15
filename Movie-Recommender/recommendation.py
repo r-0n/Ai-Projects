@@ -3,7 +3,7 @@ from model import build_model, get_top_n_recommendations
 
 def get_recommendations(user_id, n):
     # Load and preprocess data
-    data, movies, ratings = load_data('ml-latest-small/movies.csv', 'ml-latest-small/ratings.csv')
+    data, movies, ratings = load_data('Movie-Recommender/ml-latest-small/movies.csv', 'Movie-Recommender/ml-latest-small/ratings.csv')
     preprocessed_data = preprocess_data(data)
     
     # Build and train model
